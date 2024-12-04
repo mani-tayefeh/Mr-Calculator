@@ -10,4 +10,4 @@ A simple and responsive calculator built with HTML, CSS, and JavaScript.
 
 ## Preview
 
-![Description](images/Preview.PNG)
+![Description](assets/images/Preview.PNG)
