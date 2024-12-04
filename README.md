@@ -1,4 +1,4 @@
-# Mr. Calculator
+# Mr Calculator
 
 A simple and responsive calculator built with HTML, CSS, and JavaScript.
 
@@ -8,4 +8,5 @@ A simple and responsive calculator built with HTML, CSS, and JavaScript.
 - **Basic Operations**: Supports addition, subtraction, multiplication, and division.
 - **Interactive UI**: Stylish buttons with hover effects and a clear preview area.
 
-## Project Structure
+## Preview
+
