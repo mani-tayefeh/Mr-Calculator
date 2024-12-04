@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/images/Logo/ma-favicon-color.png">
+    <title>Mr Calculator</title>
+</head>
+
+<body>
+    <div class="calculator">
+        <input type="text" id="preview" readonly>
+        <div class="key">
+            <button id="add" class="operator-btn" onclick="AppendToDisplay('+')">+</button>
+            <button id="add" onclick="AppendToDisplay('1')">1</button>
+            <button id="add" onclick="AppendToDisplay('2')">2</button>
+            <button id="add" onclick="AppendToDisplay('3')">3</button>
+            <button id="add" class="operator-btn" onclick="AppendToDisplay('-')">-</button>
+            <button id="add" onclick="AppendToDisplay('4')">4</button>
+            <button id="add" onclick="AppendToDisplay('5')">5</button>
+            <button id="add" onclick="AppendToDisplay('6')">6</button>
+            <button id="add" class="operator-btn" onclick="AppendToDisplay('*')">*</button>
+            <button id="add" onclick="AppendToDisplay('7')">7</button>
+            <button id="add" onclick="AppendToDisplay('8')">8</button>
+            <button id="add" onclick="AppendToDisplay('9')">9</button>
+            <button id="add" class="operator-btn" onclick="AppendToDisplay('/')">/</button>
+            <button id="add" onclick="AppendToDisplay('0')">0</button>
+            <button id="add" onclick="AppendToDisplay('.')">.</button>
+            <button id="add" onclick="Calculate('=')">=</button>
+            <button id="add" class="operator-btn" onclick="ClearView('C')">C</button>
+        </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
